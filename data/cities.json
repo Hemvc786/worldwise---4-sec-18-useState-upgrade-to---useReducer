@@ -1,0 +1,76 @@
+{
+  "cities": [
+    {
+      "id": "bf4a",
+      "cityName": "Bhusawal",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-06-12T08:48:34.470Z",
+      "notes": "APUN KA SHEHER........",
+      "position": {
+        "lat": 21.054306138050315,
+        "lng": 75.8518407623248
+      }
+    },
+    {
+      "id": "9a47",
+      "cityName": "Dhule",
+      "country": "India",
+      "emoji": "🇮🇳",
+      "date": "2025-06-12T09:00:37.220Z",
+      "notes": "DHULIA",
+      "position": {
+        "lat": 20.889849306785656,
+        "lng": 74.83344252836235
+      }
+    },
+    {
+      "id": "72f2",
+      "cityName": "Layyah",
+      "country": "Pakistan",
+      "emoji": "🇵🇰",
+      "date": "2025-06-12T09:07:17.183Z",
+      "notes": "",
+      "position": {
+        "lat": 30.908705027012864,
+        "lng": 71.24651563514851
+      }
+    },
+    {
+      "id": "7713",
+      "cityName": "Anew",
+      "country": "Turkmenistan",
+      "emoji": "🇹🇲",
+      "date": "2025-06-12T09:07:27.229Z",
+      "notes": "",
+      "position": {
+        "lat": 39.26840727216758,
+        "lng": 59.20074405375088
+      }
+    },
+    {
+      "id": "4465",
+      "cityName": "Orekhovo-Zuyevo",
+      "country": "Russian Federation (the)",
+      "emoji": "🇷🇺",
+      "date": "2025-06-12T09:07:34.829Z",
+      "notes": "",
+      "position": {
+        "lat": 55.52603331849667,
+        "lng": 38.93920385339627
+      }
+    },
+    {
+      "id": "92bd",
+      "cityName": "Lisbon",
+      "country": "Portugal",
+      "emoji": "🇵🇹",
+      "date": "2025-06-12T11:24:58.643Z",
+      "notes": "",
+      "position": {
+        "lat": 38.70781015528707,
+        "lng": -9.13454993558116
+      }
+    }
+  ]
+}
