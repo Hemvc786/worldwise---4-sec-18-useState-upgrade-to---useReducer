@@ -8,7 +8,7 @@
 //user authentication in react works in 3 steps:
 //1. Get the user emails and password, from a login form and check with an api endpoint if the pwd for user is correct
 //2. If the credentials are correct -> we redirect user to main application and we save user object in our state
-//3. we need to protect the application fromunauthorised access--> from users who are not currently logged in
+//3. we need to protect the application from unauthorised access--> from users who are not currently logged in
 
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Product from "./pages/Product";
@@ -23,6 +23,7 @@ import City from "./components/City";
 import Form from "./components/Form";
 import { CitiesProvider } from "./Context/CititesContext";
 import { AuthProvider } from "./Context/FakeAuthContext";
+import ProtectedRoute from "./pages/ProtectedRoute";
 
 function App() {
   return (
@@ -36,7 +37,14 @@ function App() {
             <Route path="pricing" element={<Pricing />} />
             <Route path="login" element={<Login></Login>} />
             <Route path="*" element={<PageNotFound />} />
-            <Route path="app" element={<AppLayout />}>
+            <Route
+              path="app"
+              element={
+                <ProtectedRoute>
+                  <AppLayout />
+                </ProtectedRoute>
+              }
+            >
               {/* For nested routes */}
               {/*
                  How to display one component inside another component---> Outlet is used. <Outlet/> is similar to {children} prop.
